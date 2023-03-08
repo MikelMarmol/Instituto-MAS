@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <meta charset="utf-8">
+</head>
+
+<body background="imagenes/bab838c6832bf9f410887688395bc607eefc801ba76551e3f087a75070bdb106fondo_contacto.jpg">
+    
+    <p aling="center">
+        <font face="myriad pro" color="white"> <h1>Contacto</h1></font> 
+    </p>
+    
+    <br><br>
+    
+    <p> 
+        <font face="myriad pro" size="4" color="white">
+            <form action="mailto:info@institutomas.com.ar" method="post">
+                
+                Nombre:<input type="text" name="nombre"> <br><br>
+                Email:<input type="text" name="email"> <br><br>
+                Edad:<input type="text" name="edad" size="5" min="18" max="100">
+                
+                <br><br>
+                
+                ¿Desea recibir informaacion en su correo?:
+                <input type="radio" name="info" value="afirmativo" checked> si 
+                <input type="radio" name="info" value="negativo" > No 
+                
+                <br><br>
+                
+                Selecciones los destinos que le gustaria visitar:
+                <input type="checkbox" name="barcelona">Barcelona
+                <input type="checkbox" name="paris">Paris
+                <input type="checkbox" name="roma">roma
+                <input type="checkbox" name="londres">Londres 
+                
+                <br><br>
+                
+                Seleccione un trismestre: 
+                <select name="periodos">
+                    <options>Enero-Marzo</options>
+                    <options>Abril-Junio</options>
+                    <options>Julio-Septiembre</options>
+                    <options>Octubre-diciembre</options>
+                </select> 
+                
+                <br><br>
+                Escriba su consulta:
+                <textarea name="consulta" required rows="10" cols="35"></textarea> 
+                
+                <br><br>
+
+                ingresa su codigo de socio:
+                <input type="password" name="codigo" size="6" maxlength="4"> <label>*Codigo que figura en su recibo</label> 
+                
+                <br><br>
+
+                Vencimiento de su tarjeta de socio: 
+                <input type="date" name="vencimiento"> 
+                
+                <br><br>
+
+                <input type="reset" value="Borrar todo">
+                <input type="submit" value="Enviar"> 
+                
+
+            </form>
+        </font>
+    </p>
+    
+</body>
+</html>
