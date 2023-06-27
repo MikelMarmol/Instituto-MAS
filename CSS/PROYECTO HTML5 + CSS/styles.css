@@ -1,0 +1,171 @@
+.bodyjugadores {
+    background-color: #1B3292;
+    margin:0px; 
+ }
+    
+.jugadoreshistoricostitulo {
+    color: #A71B1B ;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 50px;
+    background-color: #161B54; 
+    position: relative;
+    top: -20px;
+}
+    
+.historicos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: justify;
+    margin-left: 50px;
+}
+
+.colornombres {
+    color: white;
+    font-size: 20px;
+}
+
+.historicorojo{
+    width: 100%;
+    height: 800px;
+    background-color: #9C1212;
+    display: flex;
+}
+
+.historicoazul {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    background-color: #161B54;
+}
+
+   
+.nombreazul{
+    color: #161B54;
+    font-size: 70px;
+    font-family: 'Graduate';
+    text-shadow: -6px 0px 1px  white;
+}
+
+.nombrerojo {
+    color: #A71B1B;
+    font-size: 70px;
+    font-family: 'Graduate';
+    text-shadow: -6px 0px 1px  white;
+}
+
+.textorojo{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 20px;
+    font-family: Tahoma, sans-serif ;
+    margin: 20px;
+}
+.colorblanco{
+    font-size: 50px;
+    color: white;
+    margin-top: -10px;
+    font-family: 'Rampart One';
+    
+}
+    
+.datos {
+    margin-top: 70px;
+}
+.negrita {
+    font-weight: bolder;
+}
+
+.partidosjugados {
+    font-size: 50px;
+    margin-left: 20px;
+}
+
+.palabrapartidos{
+    margin-left: 60px;
+}
+
+
+.goles{
+ font-size: 50px;
+ display: flex;
+ margin-left: 300px;
+ margin-top: -82px;
+}
+
+.palabragoles {
+    display: flex;
+    margin-left: 350px;
+    margin-top: -22px;
+}
+
+
+.trofeosganados {
+    font-size: 50px;
+    display: flex;
+    margin-left: 570px;
+    margin-top: -78px;
+}
+
+.palabratitulos {
+    display: flex;
+    margin-left: 600px;
+    margin-top: -25px;
+}
+
+.pipifoto{
+    width: 40%;
+    height: 800px;
+    margin-top: 0px;
+}
+
+.sanfilippofoto {
+    width: 37%;
+    height: 800px;
+    margin-top: 0px; 
+}
+
+.scottafoto{
+    width: 40%;
+    height: 800px;
+    margin-top: 0px;
+}
+
+.insuafoto{
+    width: 43%;
+    height: 800px;
+    margin-top: 0px; 
+}
+
+.telchfoto {
+    width: 40%;
+    height: 800px;
+    margin-top: 0px; 
+}
+
+.fischerfoto {
+    width: 43%;
+    height: 800px;
+    margin-top: 0px; 
+}
+
+.betofoto{
+    width: 45%;
+    height: 800px;
+    margin-top: 0px; 
+}
+.rinaldofoto {
+   width: 40%;
+    height: 800px;
+    margin-top: 0px;  
+}
+
+.butticefoto {
+    width: 40%;
+    height: 800px;
+    margin-top: 0px;   
+}
+
+

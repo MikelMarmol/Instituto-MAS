@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo practico 6</title>
+    <script language="JavaScript">
+        //--
+            function CambiarFondo (valor)
+            {document.bgColor=valor}
+
+            function CambiarLink (valor)
+            {document.linkColor=valor}
+        //-->
+    </script>
+</head>
+<body>
+    <script language="JavaScript">
+        //--
+            var bg= prompt ("intrduzca el valor hexadecimal del color del fondo de la pagina", "#FFFFFF")
+            CambiarFondo (bg)
+
+            var li= prompt ("intrduzca el valor hexadecimal del color del fondo de los hipervinculos", "#000000")
+            CambiarLink (li)
+        //-->
+    </script>
+<a href="https://www.google.com.ar/?hl=es">Pulse aqui para ir a Google</a>
+</body>
+</html>

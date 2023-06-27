@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo practico 3 II</title>
+</head>
+<body>
+    <script language="JavaScript">
+        //--
+            function Validar (valor)
+            {
+                if ((valor >=1)&&(valor <=50))
+                    return true
+                else
+                    return false
+            }
+
+            function Imprimir_Cuadrado (numero)
+            {
+                if(Validar (numero))
+                    document.write ("La mitad de "+ numero + " es " + numero / 2)
+                else
+                    document.write ("El valor seleccionado no es valido")
+            }
+
+            var respuesta = prompt ("Por favor introduzca un numero del 1 al 50", "1")
+            Imprimir_Cuadrado(respuesta)
+        //-->
+    </script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo practico 7</title>
+    <script language="JavaScript">
+        //--
+            function ValidarEmail (elemnto)
+            {
+                if(elemento.value.indexOf("@")==-1)
+                {
+                    alert("introduzca una direccion valida de correo electronico.")
+                    elemento.focus()
+                    elemento.select()
+                }
+            }   
+                {
+                 function ValidarFormaEnviar() 
+                 {
+                    var enviar = false
+                    if(document.Contacto.PorEmail.checked==true)
+                        enviar = true
+                    else
+                        enviar = false
+                    if(enviar == false)
+                    {
+                        alert("Debe elegir una forma de envio para la informacion solicitada")
+                        return false
+                    }
+                    else 
+                        return true
+                 }  
+                }
+        //-->
+    </script>
+</head>
+<body>
+<form name="Contacto" onSubmit="return ValidarFormaEnviar()">
+    <p>Apellido:</p>
+    <input type="text" name="Apellido" size="35">
+    <p>Nombre:</p>
+    <input type="text" name="Nombre" size="35">
+    <p>Domicilio:</p>
+    <input type="text" name="Domicilio" size="80">
+    <p>Correo electronico:</p>
+    <input type="text" name="Email" size="20" onchange="return ValidarEmail(this)">
+    <p>¿Es cliente Nuevo?</p>
+    <input type="radio" value="Si" name="Es cliente">Si
+    <input type="radio" name="Es cliente" value="No" checked>No
+    <p>Como desea que le enviemos la informacion?</p>
+    <input type="checkbox" name="PorEmail" value="on">Por correo electronico:
+    <input type="checkbox" name="PorPostal" value="on">Por correo postal
+    <p>de que servicio desea recibir informacion?</p>
+    <select size="1" name="Productos">
+        <option>Diseño Grafico</option>
+        <option>Diseño web</option>
+        <option>Fotografia</option>
+        <option>Marketing</option>
+    </select>
+    <p>Observaciones:</p>
+    <textarea rows="2" name="Observaciones" cols="90"></textarea>
+    <input type="submit" name="BotEnviar" value="Enviar">
+    <input type="reset" name="BotRestablecer" value="Restablecer">
+    
+</form>
+</body>
+</html>

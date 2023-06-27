@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fundacion</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body class="bg-light">
+    <nav class="navbar navbar-expand-md navbar-light bg-secondary fixed-top">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">
+                <img src="imagenes/Escudo_del_Club_Atlético_San_Lorenzo_de_Almagro.png" style="width: 45px">
+            </a>
+            <div class="navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link text-light" href="index.html">VOLVER A LA PAGINA PRINCIPAL</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br>
+    <section class="bg-light" id="header">
+        <div class="container bg-light text-center" style="margin-top: 90px;">
+                <div class="header-content-right">
+                    <h1 class="display-4 text-center text-danger">HISTORIA CAMISETA DE SAN LORENZO</h1>
+                    <p class="mt-3"> 
+                        Los colores que eligió el padre Lorenzo Massa, que terminaron reemplazando al “borravino” de los tiempos iniciales, tienen que ver con lo religioso.
+                         Como tantas cosas que acompañan a la historia de San Lorenzo. Se dice que el cura salesiano se inspiró en el azul y rojo del manto de la Virgen María
+                          Auxiliadora para darle vida al eterno azulgrana que se transformó en parte esencial de este club. Así, con el correr del tiempo, la casaca del Ciclón 
+                          fue mutando (aunque siempre se vuelve al diseño original) y nunca dejó de enamorarnos. Tuvo cuello acordonado en el amateurismo, se convirtió en camisa 
+                          abotonada para la gloria de Los Matadores y se sumó a la moda del piqué para los títulos de los 70’s. Además, resultó pionera del marketing: lució la primera 
+                          publicidad en el frente, cuando los caramelos Mu-Mu fueron sponsor de aquella gesta multitudinaria del Ascenso.
+
+                        Vinieron las distintas marcas (prácticamente todas las líderes) y sus diferentes modelos, con bastones más anchos o más angostos, con 
+                        alguna que otra revolucionaria (¿cómo olvidar aquella polémica negra y amarilla, sólo utilizada una vez, contra River, en el año 2000?) 
+                        y cada una con su particular recorrido. La clásica suplente siempre fue blanca, con algún toque azul, preferentemente. Y en el costado, 
+                        del lado del corazón, el escudo o un CASLA reluciente. Desde el Sapito Villar (el que más veces pudo lucirla) hasta el nigeriano Félix Orode 
+                        (que la vistió apenas unos minutos, en el clásico contra Huracán), la sensación nunca cambia: llevar la azulgrana sobre la piel supone un privilegio 
+                        intransferible. Y ciertamente inolvidable...
+                    </p>
+                    <img src="imagenes/dKK49xI6vxQQpiy.jpg" style="width: 100%;">
+                </div>
+        </div>
+    </section>
+
+<!-- SCRIPT -->
+
+<script>
+    window.sr = ScrollReveal();
+
+    sr.reveal('.navbar', {
+        duration: 1500,
+        origin: 'bottom'
+    });
+
+    sr.reveal('.header-content-right', {
+        duration: 1000,
+        origin: 'top',
+        distance: '100px'
+    });
+
+    sr.reveal('.header-content-left', {
+        duration: 1000,
+        origin: 'right',
+        distance: '200px',
+        
+    });
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+</script>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+</html>

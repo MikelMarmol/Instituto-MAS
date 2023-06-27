@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo practico 6 II</title>
+    <script language="JavaScript">
+        //--
+            var nueva = null
+            function NuevaVentana()
+            {
+                nueva=window.open("","","resizable,width=300,height=300")
+                nueva.document.open()
+                nueva.document.writeln("<html><head><title>Nuevaventana</title></head>")
+                nueva.document.writeln("<body><h1>Esto es una imagen</h1>")
+                nueva.document.writeln("<img src='imagenes/cc3682540e34538b816088c634be02e0c071a9d0cd845836cdb0deae7915fb95paisaje.jpeg'height='150' width='200'>")
+                nueva.document.writeln("<h2>Ya puede cerrar la ventana</h2>")
+                nueva.document.close()
+            }
+        //-->
+    </script>
+</head>
+<body>
+    <form>
+        <input type="button" value="Abrir ventana" onclick="NuevaVentana()">
+    </form>
+</body>
+</html>

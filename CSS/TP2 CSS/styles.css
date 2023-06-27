@@ -1,0 +1,26 @@
+.color {
+    color: red;
+}
+.velocidad{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.primertexto {
+    color: cornflowerblue;
+}
+
+h1 {
+    font-size: 36px;
+    font-family: Verdana, Arial;
+    text-decoration: underline;
+    text-align: center;
+    background-color: #CECEF6;
+    color: aliceblue;
+}
+.tercerfondo{
+    background-color: #A9A9F5;
+    text-align: center;
+    font-family: Arial;
+    font-size: 20px;
+    color: aliceblue;
+}

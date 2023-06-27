@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo practico 6 III</title>
+    <script language="JavaScript">
+        //--
+            function CambiarImages(valor,imagen)
+            {
+                document.images[valor].src = imagen
+            }
+        //-->
+    </script>
+</head>
+<body>
+    <h1>Seleccione la opcion deseada: </h1>
+    <table>
+        <tr>
+            <td width="42">
+                <img src="imagenes/56ca6308f826b564089fda82e340f5e5e57a39dc3a2fe4001065b23a3e03127fimagen2.jpg" width="30" height="30" 
+                onMouseOver="CambiarImages(0,'imagenes/d29efcb487fea8398e16606103afe6b4d60c1252d736f8147332e395aad2b7e1imagen1.jpg')" 
+                onMouseOut="CambiarImages(0,'imagenes/56ca6308f826b564089fda82e340f5e5e57a39dc3a2fe4001065b23a3e03127fimagen2.jpg')">
+            </td>
+            <td width="100%">
+                <b>Pago en efectivo</b>
+            </td>
+        </tr>
+        <tr>
+            <td width="42">
+                <img src="imagenes/56ca6308f826b564089fda82e340f5e5e57a39dc3a2fe4001065b23a3e03127fimagen2.jpg" width="30" height="30" 
+                onMouseOver="CambiarImages(1,'imagenes/d29efcb487fea8398e16606103afe6b4d60c1252d736f8147332e395aad2b7e1imagen1.jpg')" 
+                onMouseOut="CambiarImages(1,'imagenes/56ca6308f826b564089fda82e340f5e5e57a39dc3a2fe4001065b23a3e03127fimagen2.jpg')">
+            </td>
+            <td width="100%">
+                <b>Pago con Tarjeta</b>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

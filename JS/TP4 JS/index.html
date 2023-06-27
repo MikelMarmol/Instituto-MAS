@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo practico 4</title>
+    <script language="JavaScript">
+        //--
+            var NuevaVentana = null
+            function AbrirVentana()
+            {
+                NuevaVentana = window.open("", "nueva","width=150,height=150")
+            }
+            function CerrarVentana()
+            {
+                if(Nuevaventana != null)
+                {
+                    NuevaVentana.close()
+                    NuevaVentana = null
+                }
+
+            }
+        //-->
+    </script>
+</head>
+<body>
+   <form>
+        <input type="button" value="Abrir" onclick="AbrirVentana()">
+        <input type="button" value="Cerrar" onclick="CerrarvVentana()">
+   </form>
+</body>
+</html>

@@ -1,0 +1,25 @@
+body {
+    background-color: grey;
+}
+
+h1 {
+    font: bold;
+    font-size: 40px;
+    font-family: 'Gill Sans';
+    text-align: center;
+    text-decoration: underline;
+    color: coral;
+    background-color: darkseagreen;
+}
+
+p {
+    font-family: 'Gill Sans';
+    font-size: 15px;
+    text-align: center;
+    color: white;
+
+}
+
+p:first-letter {
+    font-size: 200%;
+}
